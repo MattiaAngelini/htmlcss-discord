@@ -85,23 +85,24 @@ footer {
           display: flex;
           height: 100%;
           line-height: 50px;   
-          padding: 0 6px 0 6px; 
-          
+          padding: 0 6px 0 6px;        
 }
 
 
 .logo  {
-        flex:1; 
+        width: 10%;
 }
 
-.login {
-       justify-content: end;
-       flex:1;
+.btn_login {
+       width: 10%;
+       justify-content: center;
+       align-items: center;
+       border-radius: 40px;
 }
 
 .container_link {
        justify-content: center;
-       flex: 2;
+       width: 80%;
 }
 
 .link * { 

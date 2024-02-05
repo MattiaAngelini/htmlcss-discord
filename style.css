@@ -3,263 +3,282 @@
 -------------------*/
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/*-------------------
-       GENERAL
--------------------*/
-
-header  {
-        background-color: rgb(48, 92, 239); 
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    /*-------------------
+           GENERAL
+    -------------------*/
+    
+    header {
+        background-color: rgb(48, 92, 239);
         display: flex;
         justify-content: center;
         align-items: center;
         padding: 50px 150px;
-        height: 50px ;
+        height: 50px;
         color: white;
         font-size: 20px;
-}
-
-section {
+    }
+    
+    section {
         padding: 40px;
-}
+    }
+    
+    footer {
+        padding-bottom: 30px;
+    }
+    
+    /*-------------------
+         TYPOGRAPHY
+    -------------------*/
+    
+    * {
+        font-family: "Cabin", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-variation-settings: "wdth" 100;
+    }
+    
+    .white_txt {
+        color: white;
+    }
+    
+    .text_space {
+        line-height: 30px;
+        margin: 10px 0 10px 0;
+    }
+    
+    hr {
+        display: none;
+    }
+    
+    /*-------------------
+        GRID LAYOUT
+    -------------------*/
+    
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    .layout_sect {
+        display: flex;
+        min-height: 600px;
+        ;
+    }
+    
+    /*-------------------
+            BUTTONS
+    -------------------*/
+    
+    .btn_nav {
+        border-radius: 40px;
+        border: none;
+        font-weight: 400;
+        font-size: 20px;
+    }
+    
+    .btn_head {
+        display: flex;
+        width: 15%;
+        justify-content: center;
+        align-items: center;
+    }
 
-
-footer {      
-        padding: 20px 0 0 0;
-        border-top: 2px solid white;
-}
-
-
-
-/*-------------------
-     TIPOGRAPHY
--------------------*/
-
-* { font-family: "Cabin", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
-    font-variation-settings:"wdth" 100;
-}
-
-.white_txt {
-            color: white
-}
-
-.text_space {line-height: 30px;
-             margin: 10px 0 10px 0;
-}
-
-hr {
-    display: none;
-}
-
-/*-------------------
-    GRID LAYOUT
--------------------*/
-
-.container {
-            max-width: 1200px;
-            margin: 0 auto;                
-}
-
-.layout_sect {
-               display:flex;             
-               min-height: 600px;
-               ;      
-}
-
-/*-------------------
-        BUTTONS
--------------------*/
-
-.btn_nav { 
-          border-radius: 40px;
-          border: none;
-          font-weight: 400;
-          font-size: 20px; 
-}
-
-.btn_head {
-           display: flex;
-           width: 15%;
-           justify-content: center;
-           align-items: center;
-}
-
-.btn_foot {
-           display: flex;
-           height: 30px;
-           line-height: 30px;   
-           border: 2px dashed black; 
-           color: black;                 
-           background-color: coral;   
-}
-
-/*-------------------
-        WRAPS
--------------------*/
-
-.first_wrap{
-           background-image: url(./img/jumbo.png); 
-           background-size: cover;       
-}
-
-.gray_wrap{
-           background-color: rgb(246,246,246)
-}
-
-.black_wrap{
-            background-color: black;
-}
-
-.aquamarine_wrap {
-                  background-color: aquamarine;
-}
-
-.stars_wrap {background-image: url(./img/stars.svg);
-             background-size: contain;
-             background-position: center;
-             background-repeat: no-repeat;
-             font-size: 20px;
-}
-
-
-/*-------------------
-       HEADER
--------------------*/
-
-.row  {
-       display: flex;
-       width: 100%;
-       height: 50px;   
-       text-align: center;         
-}
-
-.row > * {
-          display: flex;
-          height: 100%;
-          line-height: 50px;      
-}
-
-.container_link {
-                 justify-content: space-between;
-                 width: 80%;
-                 margin: 0 10% 0 10%;
-}
-
-.link * {  
-         text-decoration: none;
-         color: white;
-}
-
-/*-----------------
-  FIRST SECTION
--------------------*/  
-
-.first_sect {
-             display: flex;
-             flex-direction: column;
-             justify-content: center;
-             align-items: center;
-             width: 100%;
-}
-                 
-#Title_page {
-             font-size: 70px;
-}
-
-.text_intro{
-            max-width: 40%;
-            line-height: 30px;
-            padding: 20px;
-            text-align: center;
-}
-
-div > .btn_nav {
-                padding: 10px;
-                margin: 0 10px 0 10px;
-}
-
-.btn_nav.black_wrap{
-                    color: white;
-}
-
-/*-----------------
-  SECOND SECTION
--------------------*/  
-              
-.second_sect {
-              height: 100%;
-              width: 70%;                      
-}
-
-.left_col {
+    .btn_foot {
+        display: flex;
+        align-items: center;
+        background-color: rgba(142, 161, 225, 255);
+        color: white;
+    }
+    
+    /*-------------------
+            WRAPS
+    -------------------*/
+    
+    .first_wrap {
+        background-image: url(./img/jumbo.png);
+        background-size: cover;
+    }
+    
+    .gray_wrap {
+        background-color: rgb(246, 246, 246);
+    }
+    
+    .black_wrap {
+        background-color: black;
+    }
+    
+    .stars_wrap {
+        background-image: url(./img/stars.svg);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        font-size: 20px;
+    }
+    
+    .darkgrey_wrap {
+        background-color: rgba(35, 39, 42, 255);
+    }
+    
+    /*-------------------
+           HEADER
+    -------------------*/
+    
+    .row {
+        display: flex;
+        width: 100%;
+        height: 50px;
+        text-align: center;
+    }
+    
+    .row > * {
+        display: flex;
         height: 100%;
-        width: 30%; 
-        margin-top:50px;        
-}
-
-.left_col > h1 {font-size: 50px;}
-
-
-/*-----------------
-FIFTH SECTION(BIG)
--------------------*/  
-
-               
-#big_section {
-              min-height: 700px;
-              text-align: center;
-}
-
-#big_section h1 {
-                 font-size: 40px;
-                 padding: 20px;
-}
-
-#big_section button  {background-color: rgba(142,161,225,255);
-                      margin: 20px;
-                }
-/*-----------------
-FINAL SECTION
--------------------*/  
-.coral_square{
-              width: calc(100%/3);
-              height: 100%;
-}
-
-.coral_square h1 {color: rgba(142,161,225,255);
+        line-height: 50px;
+    }
+    
+    .container_link {
+        justify-content: space-between;
+        width: 80%;
+        margin: 0 10% 0 10%;
+    }
+    
+    .link * {
+        text-decoration: none;
+        color: white;
+    }
+    
+    /*-----------------
+      FIRST SECTION
+    -------------------*/
+    
+    .first_sect {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    
+    #Title_page {
+        font-size: 70px;
+    }
+    
+    .text_intro {
+        max-width: 40%;
+        line-height: 30px;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    div > .btn_nav {
+        padding: 10px;
+        margin: 0 10px 0 10px;
+    }
+    
+    .btn_nav.black_wrap {
+        color: white;
+    }
+    
+    /*-----------------
+      SECOND SECTION
+    -------------------*/
+    
+    .second_sect {
+        height: 100%;
+        width: 70%;
+    }
+    
+    .left_col {
+        height: 100%;
+        width: 30%;
+        margin-top: 50px;
+    }
+    
+    .left_col > h1 {
+        font-size: 50px;
+    }
+    
+    /*-----------------
+    FIFTH SECTION(BIG)
+    -------------------*/
+    
+    #big_section {
+        min-height: 700px;
+        text-align: center;
+    }
+    
+    #big_section h1 {
+        font-size: 40px;
+        padding: 20px;
+    }
+    
+    #big_section button {
+        background-color: rgba(142, 161, 225, 255);
+        margin: 20px;
+    }
+    
+    .bot_bord {
+        border-bottom: 2px solid rgba(142, 161, 225, 255);
+    }
+    
+    /*-----------------
+    FINAL SECTION-SOCIAL
+    -------------------*/
+    
+    .social_net {
+        width: calc(100%/3);
+        height: 100%;
+    }
+    
+    .social_net h1 {
+        color: rgba(142, 161, 225, 255);
         font-size: 30px;
-
-}
-
-.li_green_square{
-                 width: calc(100%/6);
-                 height: 100%;
-} 
-
-ul { 
-    line-height: 30px;
-    list-style-type: none;
-}
-
- li:first-child {color: rgba(142,161,225,255);}
-
-
- #italy {width: 20px;
-            }
-/*-------------------
-       FOOTER
--------------------*/
-
-footer > div {
-              margin-top:10px;  
-              justify-content:space-between;  
-              align-items: center;      
-}
-       
+        margin-bottom: 20px;
+    }
+    
+    .social_net div {
+        margin-bottom: 20px;
+    }
+    
+    .social_net .icons i {
+        margin-right: 20px;
+    }
+    
+    /*-----------------
+    FINAL SECTION-LIST
+    -------------------*/
+    
+    .list_info {
+        width: calc(100%/6);
+        height: 100%;
+    }
+    
+    ul {
+        line-height: 30px;
+        list-style-type: none;
+    }
+    
+    li:first-child {
+        color: rgba(142, 161, 225, 255);
+    }
+    
+    #italy {
+        width: 20px;
+    }
+    
+    /*-------------------
+           FOOTER
+    -------------------*/
+    
+    footer > div {
+        justify-content: space-between;
+    }
+    
+   
+    

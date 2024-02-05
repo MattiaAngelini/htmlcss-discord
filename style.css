@@ -13,7 +13,7 @@
 -------------------*/
 
 header  {
-        background-color: rgb(49,27,224); 
+        background-color: rgb(48, 92, 239); 
         display: flex;
         justify-content: center;
         align-items: center;
@@ -36,19 +36,16 @@ footer {
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
-    font-variation-settings:
-      "wdth" 100;}
+    font-variation-settings:"wdth" 100;
+}
 
-    .white_txt {
-                color: white
-    }
+.white_txt {
+            color: white
+}
 
-    .btn_nav { 
-              border-radius: 40px;
-              border: none;
-              font-weight: 800;
-              font-size: 20px;
-    }
+hr {
+    display: none;
+}
 
 /*-------------------
     GRID LAYOUT
@@ -66,11 +63,38 @@ footer {
 }
 
 /*-------------------
+        BUTTONS
+-------------------*/
+
+.btn_nav { 
+          border-radius: 40px;
+          border: none;
+          font-weight: 800;
+          font-size: 20px; 
+}
+
+.btn_head {
+           display: flex;
+           width: 15%;
+           justify-content: center;
+           align-items: center;
+}
+
+.btn_foot {
+           display: flex;
+           height: 30px;
+           line-height: 30px;   
+           border: 2px dashed black; 
+           color: black;                 
+           background-color: coral;   
+}
+
+/*-------------------
         WRAPS
 -------------------*/
 
 .first_wrap{
-           background-image: url(/img/jumbo.png); 
+           background-image: url(./img/jumbo.png); 
            background-size: cover;       
 }
 
@@ -117,25 +141,39 @@ footer {
          color: white;
 }
 
-.btn_head {display: flex;
-           width: 15%;
-           justify-content: center;
-           align-items: center;}
+
 /*-----------------
   FIRST SECTION
 -------------------*/  
 
-.purple_square { 
-                width: 40%;
-                height: 100%;
-                margin: auto;
-                text-align: center;
+.first_sect {  
+             min-height: 300px;
+             display: flex;
+             flex-direction: column;
+             justify-content: center;
+             align-items: center;
+             width: 100%;
+}
+                 
+#Title_page {
+             font-size: 50px;
 }
 
-#Title_page {font-size: 50px;}
+.text_intro{
+            max-width: 40%;
+            line-height: 30px;
+            padding: 20px;
+            text-align: center;
+}
 
-#Title_page + p {padding: 30px;
-                 line-height: 30px;}
+div > .btn_nav {
+                padding: 10px;
+                margin: 0 10px 0 10px;
+}
+
+.btn_nav.black_wrap{
+                    color: white;
+}
 
 /*-----------------
   SECOND SECTION
@@ -183,11 +221,3 @@ footer > div {
               align-items: center;      
 }
        
-.btn_foot {
-           display: flex;
-           height: 30px;
-           line-height: 30px;   
-           border: 2px dashed black; 
-           color: black;                 
-           background-color: coral;   
-}

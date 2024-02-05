@@ -1,0 +1,170 @@
+/*-------------------
+        RESET
+-------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*-------------------
+       GENERAL
+-------------------*/
+
+header {
+        background-color: lightblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 150px;
+        height: 50px ;
+}
+
+footer {      
+        padding: 20px 0 0 0;
+        border-top: 2px solid white;
+}
+
+
+[class*="square"] {
+                    border: 2px dashed black;
+}
+
+
+/*-------------------
+    GRID LAYOUT
+-------------------*/
+
+.container {
+            max-width: 1180px;
+            margin: 0 auto;                
+}
+
+.layout_sect {
+               display:flex;             
+               height: 500px;
+               padding: 25px 0;      
+}
+
+/*-------------------
+        WRAPS
+-------------------*/
+
+.blue_wrap{
+           background-color: blue;         
+}
+
+.gray_wrap{
+           background-color: gray;
+}
+
+.black_wrap{
+            background-color: black;
+}
+
+.aquamarine_wrap {
+                  background-color: aquamarine;
+}
+
+#big_wrap {
+           height: 700px;
+}
+/*-------------------
+       HEADER
+-------------------*/
+
+.nav  {
+       display: flex;
+       width: 100%;
+       height: 50px;     
+}
+
+.nav > * {
+          display: flex;
+          border: 2px dashed black;
+          height: 100%;
+          line-height: 50px;   
+          padding: 0 6px 0 6px; 
+          background-color: yellow;          
+}
+
+.logo  {
+        flex:1; 
+}
+
+.login {
+       justify-content: end;
+       flex:1;
+}
+
+.container_link {
+       justify-content: center;
+       flex: 2;
+}
+
+.link * { 
+   text-decoration: none;
+   margin: 0 5px;
+}
+
+/*-----------------
+   SQUARE/SECTIONS
+-------------------*/  
+
+.purple_square { 
+                width: 40%;
+                height: 100%;
+                background-color: purple;
+                margin: auto;
+}
+               
+.blue_square {
+              height: 100%;
+              width: 70%;
+              background-color: lightblue;             
+}
+  
+.pink_square {
+              height: 100%;
+              width: 30%; 
+              background-color: pink;           
+}
+
+.green_square {
+               height: 100%;
+               width: 100%;
+               background-color: green;                                                                                      
+}
+
+.coral_square{
+              background-color: coral;
+              width: calc(100%/3);
+              height: 100%;
+}
+
+.li_green_square{
+                 background-color: lightgreen;
+                 width: calc(100%/6);
+                 height: 100%;
+                 border: 2px dashed white;
+} 
+
+/*-------------------
+       FOOTER
+-------------------*/
+
+footer > div {
+              margin-top:10px;  
+              justify-content:space-between;  
+              align-items: center;      
+}
+       
+.btn_foot {
+           display: flex;
+           height: 30px;
+           line-height: 30px;   
+           border: 2px dashed black; 
+           color: black;                 
+           background-color: coral;   
+}

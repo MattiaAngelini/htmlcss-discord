@@ -228,19 +228,31 @@ FIFTH SECTION(BIG)
 /*-----------------
 FINAL SECTION
 -------------------*/  
-
 .coral_square{
-              background-color: coral;
               width: calc(100%/3);
               height: 100%;
 }
 
+.coral_square h1 {color: rgba(142,161,225,255);
+        font-size: 30px;
+
+}
+
 .li_green_square{
-                 background-color: lightgreen;
                  width: calc(100%/6);
                  height: 100%;
 } 
 
+ul { 
+    line-height: 30px;
+    list-style-type: none;
+}
+
+ li:first-child {color: rgba(142,161,225,255);}
+
+
+ #italy {width: 20px;
+            }
 /*-------------------
        FOOTER
 -------------------*/

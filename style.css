@@ -80,7 +80,7 @@ hr {
 .btn_nav { 
           border-radius: 40px;
           border: none;
-          font-weight: 800;
+          font-weight: 400;
           font-size: 20px; 
 }
 
@@ -119,6 +119,13 @@ hr {
 
 .aquamarine_wrap {
                   background-color: aquamarine;
+}
+
+.stars_wrap {background-image: url(./img/stars.svg);
+             background-size: contain;
+             background-position: center;
+             background-repeat: no-repeat;
+             font-size: 20px;
 }
 
 
@@ -215,18 +222,12 @@ FIFTH SECTION(BIG)
                  padding: 20px;
 }
 
-
-
-
-
-
-
+#big_section button  {background-color: rgba(142,161,225,255);
+                      margin: 20px;
+                }
 /*-----------------
 FINAL SECTION
 -------------------*/  
-
-
-
 
 .coral_square{
               background-color: coral;

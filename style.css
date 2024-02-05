@@ -23,6 +23,11 @@ header  {
         font-size: 20px;
 }
 
+section {
+        padding: 60px;
+}
+
+
 footer {      
         padding: 20px 0 0 0;
         border-top: 2px solid white;
@@ -47,7 +52,6 @@ footer {
         margin: 10px 0 10px 0;
 }
 
-
 hr {
     display: none;
 }
@@ -57,14 +61,14 @@ hr {
 -------------------*/
 
 .container {
-            max-width: 1180px;
+            max-width: 1200px;
             margin: 0 auto;                
 }
 
 .layout_sect {
                display:flex;             
-               min-height: 500px;
-               padding: 25px 0;      
+               min-height: 600px;
+               ;      
 }
 
 /*-------------------
@@ -104,7 +108,7 @@ hr {
 }
 
 .gray_wrap{
-           background-color: gray;
+           background-color: rgb(246,246,246)
 }
 
 .black_wrap{
@@ -150,8 +154,7 @@ hr {
   FIRST SECTION
 -------------------*/  
 
-.first_sect {  
-             min-height: 300px;
+.first_sect {
              display: flex;
              flex-direction: column;
              justify-content: center;
@@ -160,7 +163,7 @@ hr {
 }
                  
 #Title_page {
-             font-size: 50px;
+             font-size: 70px;
 }
 
 .text_intro{

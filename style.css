@@ -13,12 +13,13 @@
 -------------------*/
 
 header {
-        background-color: lightblue;
+        background-color: rgb(49,27,224); 
         display: flex;
         justify-content: center;
         align-items: center;
         padding: 50px 150px;
         height: 50px ;
+        color: white;
 }
 
 footer {      
@@ -26,10 +27,10 @@ footer {
         border-top: 2px solid white;
 }
 
-
+/*
 [class*="square"] {
                     border: 2px dashed black;
-}
+} /*
 
 
 /*-------------------
@@ -77,17 +78,17 @@ footer {
 .nav  {
        display: flex;
        width: 100%;
-       height: 50px;     
+       height: 50px;           
 }
 
 .nav > * {
           display: flex;
-          border: 2px dashed black;
           height: 100%;
           line-height: 50px;   
           padding: 0 6px 0 6px; 
-          background-color: yellow;          
+          
 }
+
 
 .logo  {
         flex:1; 
@@ -104,9 +105,11 @@ footer {
 }
 
 .link * { 
-   text-decoration: none;
-   margin: 0 5px;
+         text-decoration: none;
+         margin: 0 5px;
+         color: white;
 }
+
 
 /*-----------------
    SQUARE/SECTIONS

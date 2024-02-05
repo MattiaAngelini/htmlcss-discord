@@ -24,7 +24,7 @@ header  {
 }
 
 section {
-        padding: 60px;
+        padding: 40px;
 }
 
 
@@ -32,6 +32,8 @@ footer {
         padding: 20px 0 0 0;
         border-top: 2px solid white;
 }
+
+
 
 /*-------------------
      TIPOGRAPHY
@@ -49,7 +51,7 @@ footer {
 }
 
 .text_space {line-height: 30px;
-        margin: 10px 0 10px 0;
+             margin: 10px 0 10px 0;
 }
 
 hr {
@@ -119,9 +121,7 @@ hr {
                   background-color: aquamarine;
 }
 
-#big_wrap {
-           height: 700px;
-}
+
 /*-------------------
        HEADER
 -------------------*/
@@ -194,22 +194,39 @@ div > .btn_nav {
 .left_col {
         height: 100%;
         width: 30%; 
-        margin-top: 5%;        
+        margin-top:50px;        
 }
 
 .left_col > h1 {font-size: 50px;}
 
 
 /*-----------------
-   THIRD SECTION
+FIFTH SECTION(BIG)
 -------------------*/  
 
                
-.green_square {
-               height: 100%;
-               width: 100%;
-               background-color: green;                                                                                      
+#big_section {
+              min-height: 700px;
+              text-align: center;
 }
+
+#big_section h1 {
+                 font-size: 40px;
+                 padding: 20px;
+}
+
+
+
+
+
+
+
+/*-----------------
+FINAL SECTION
+-------------------*/  
+
+
+
 
 .coral_square{
               background-color: coral;

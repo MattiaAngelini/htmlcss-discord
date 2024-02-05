@@ -60,9 +60,10 @@ hr {
     
 .layout_sect {
               display: flex;
-              min-height: 700px;
+              min-height: 600px;
+              padding: 30px;
 }
-    
+   
 /*-------------------
       BUTTONS
  ------------------*/
@@ -72,7 +73,7 @@ hr {
          border: none;
          font-weight: 400;
          font-size: 20px;
-         padding: 5px;
+         padding: 10px;
 }
     
 .btn_head {
@@ -96,6 +97,7 @@ hr {
 .first_wrap {
              background-image: url(./img/jumbo.png);
              background-size: cover;
+             align-items: start;
 }
     
 .gray_wrap {
@@ -106,20 +108,12 @@ hr {
              background-color: black;
 }
     
-.stars_wrap {
-             background-image: url(./img/stars.svg);
-             background-size: contain;
-             background-position: center;
-             background-repeat: no-repeat;
-             font-size: 20px;
-}
-    
 .darkgrey_wrap {
                 background-color: rgba(35, 39, 42, 255);
 }
     
 /*-------------------
-           HEADER
+      HEADER
 -------------------*/
     
 .nav_bar {
@@ -134,8 +128,9 @@ hr {
     
 .container_link {
                  justify-content: space-between;
+                 align-items: center;
                  width: 80%;
-                 margin: 0 10% 0 10%;
+                 margin: 0 10% 0 10%;               
 }
     
 .link * {
@@ -155,7 +150,7 @@ hr {
              width: 100%;
  }
     
-#Title_page {
+#Title_home {
              font-size: 70px;
 }
     
@@ -172,18 +167,17 @@ div > .btn_nav {
 }
     
 /*-----------------
-  SECOND SECTION
+  MAIN SECTIONS
 ------------------*/
     
-.second_sect {
-              height: 100%;
-              width: 70%;
+.size_pics {
+            height: 100%;
+            width: 80%;
 }
-    
+
 .left_col {
           height: 100%;
-          width: 30%;
-          margin-top: 50px;
+          width: 30%;    
 } 
     
 .left_col > h1 {
@@ -203,18 +197,25 @@ FIFTH SECTION(BIG)
                  font-size: 40px;
                  padding: 20px;
 }
+
+#big_section h2 {
+                 margin-top: 0;
+}
     
 #big_section button {
                      background-color: rgba(142, 161, 225, 255);
-                     margin: 20px;
+                     margin: 10px;
+                     padding: 15px;
 }
     
-.color_bord {
-           border-bottom: 2px solid rgba(142, 161, 225, 255);
+.darkgrey_wrap > .layout_sect {
+                               border-bottom: 2px solid rgba(142, 161, 225, 255);
+                               min-height: 400px;
+                               padding: 80px;
 }
-    
+
  /*-----------------
- FINAL SECTION-SOCIAL
+ LAST SECTION-SOCIAL
 -------------------*/
     
 .social_net {
@@ -225,20 +226,20 @@ FIFTH SECTION(BIG)
 .social_net h1 {
                 color: rgba(142, 161, 225, 255);
                 font-size: 30px;
-                margin-bottom: 20px;
+                margin-top: 0;      
 }
     
 .social_net div {
-                 margin-bottom: 20px;
+                 margin-bottom: 20px;             
 }
     
-.social_net .logo_social i {
+.social_net  i {
                             margin-right: 20px;
 }
     
-/*-----------------
- FINAL SECTION-LIST
--------------------*/
+/*----------------------
+ lAST SECTION-LIST INFO
+----------------------*/
     
 .list_info {
             width: calc(100%/6);
@@ -248,22 +249,23 @@ FIFTH SECTION(BIG)
 ul {
     line-height: 30px;
     list-style-type: none;
+    margin-top: 0;
 }
     
 li:first-child {
                 color: rgba(142, 161, 225, 255);
 }
     
-#italy {
+#italy_flag {
         width: 20px;
 }
     
- /*-------------------
+/*-------------------
        FOOTER
 -------------------*/
     
 footer > div {
-        justify-content: space-between;
+              justify-content: space-between;
 }
     
    
